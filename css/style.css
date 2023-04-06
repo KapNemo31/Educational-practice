@@ -4,8 +4,10 @@
     --main-color: #21243D;
     --primaru-color: #FF6464;
     --dark-blue: #142850;
+    font-size: 16px;
 
 }
+
 
 * {
     font-family: 'Heebo', sans-serif;
@@ -13,6 +15,11 @@
     margin: 0;
     padding: 0;
 }
+
+.flex {
+    display: flex;
+}
+
 
 .container {
     width: 855px;
@@ -22,6 +29,10 @@
 
 h1, h2, h3, h4{
     color: var(--main-color)
+}
+
+menu-btn, .menu{
+    display: none;
 }
 
 button{
@@ -87,6 +98,147 @@ header ul a{
 
 .content .content-right img {
     filter: drop-shadow(-8px -16px 0px rgba(0, 0, 0, 0.25));
-    
+}
+
+
+.Posts {
+    margin-top: 80px;
+    background: #EDF7FA;
+    height: auto;
+}
+
+.head {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.head p {
+    font-weight: 400;
+    font-size: 1.375rem;
+    color: var(--main-color);
+
+}
+
+.head p a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    color:  #00A8CC;
+}
+
+.Posts .content {
+    margin-top: 0px;
+}
+
+.content .left {
+    background: #FFFFFF;
+    padding: 0 24px;
+    margin-bottom: 32px;
+}
+
+.content .left h2 {
+    font-size: 1.625rem;
+    margin-top: 20px;
+}
+.content .left p {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.content .dop {
+    margin-right: 20px;
+}
+
+.Works{
+    margin-top: 40px;
+}
+
+.Works .content {
+    flex-direction: column;
+    margin: 0;
+    margin-top: 40px;
+    height: auto;
+}
+
+
+
+.work {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.work img {
+    margin-right: 15px;
+}
+
+.Featured{
+    font-weight: 400;
+    font-size: 1.375rem;
+
+}
+
+hr {
+    margin: 15px 0px 30px 0px;
+}
+
+.work div h2{
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+.work div .flex {
+    justify-content: start;
+    align-items: center;
+}
+
+.work div .flex p:nth-child(1){
+    background: #142850;
+    color: white;
+    padding: 0.4px 10px;
+    border-radius: 19px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    font-weight: 900;
+    margin-right: 26px;
+
+}
+
+.work div .flex p:nth-child(2){
+    color: #8695A4;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+footer {
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+footer .container .flex {
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+footer .container p {
+    margin: 0 auto;
+    margin-top: 27px;
+    color: var(--main-color);
+    font-weight: 400;
+    font-size: 0.875rem;
+
+}
+
+footer .container div {
+    width: 166px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
