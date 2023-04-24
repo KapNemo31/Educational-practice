@@ -45,7 +45,24 @@ button{
     color: #FFFFFF;
 }
 
+button:hover{
+    background-color: rgb(128, 0, 0);
+    cursor: pointer;
+    
+}
 
+button a{ 
+   text-decoration: none;
+   color: white;
+   font-weight: 700;
+
+}
+
+.btn {
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+}
 
 header {
     width: 100%;
@@ -174,6 +191,8 @@ header ul a{
 
 .work img {
     margin-right: 15px;
+    width: 300px;
+    height: auto;
 }
 
 .Featured{
@@ -195,7 +214,10 @@ hr {
     justify-content: start;
     align-items: center;
 }
-
+.work div .flex p a{
+    text-decoration: none;
+    color: #8695A4;
+}
 .work div .flex p:nth-child(1){
     background: #142850;
     color: white;
@@ -207,6 +229,7 @@ hr {
     margin-right: 26px;
 
 }
+
 
 .work div .flex p:nth-child(2){
     color: #8695A4;
@@ -242,6 +265,12 @@ footer .container div {
     justify-content: space-between;
 }
 
+footer div a  {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ 
+}
 
 
 @media screen and (max-width: 900px) {
