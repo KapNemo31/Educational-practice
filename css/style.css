@@ -213,6 +213,7 @@ hr {
 .work div .flex {
     justify-content: start;
     align-items: center;
+    
 }
 .work div .flex p a{
     text-decoration: none;
@@ -227,8 +228,6 @@ hr {
     font-size: 1.125rem;
     font-weight: 900;
     margin-right: 26px;
-
-    
 }
 
 
