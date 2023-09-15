@@ -1,0 +1,9 @@
+.Posts:nth-child(1) {
+    margin-top: 0px;
+}
+
+.video {
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
